@@ -1,0 +1,347 @@
+{
+	"info": {
+		"_postman_id": "cb9901fe-0301-461b-a980-9242b10c2f51",
+		"name": "team builder new seq",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25961896"
+	},
+	"item": [
+		{
+			"name": "insert team",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/home/kurm/Documents/NodeJS/nodejs-projects/desk photo/anthony-tuil-lS_eDob6DDg-unsplash.jpg"
+						},
+						{
+							"key": "teamname",
+							"value": "Rajender Nagar",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8080/admin/team/insert",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"team",
+						"insert"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update team",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/home/kurm/Documents/NodeJS/nodejs-projects/desk photo/anthony-tuil-lS_eDob6DDg-unsplash.jpg"
+						},
+						{
+							"key": "teamname",
+							"value": "@@",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8080/admin/team/update/3",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"team",
+						"update",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "view all team",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/admin/team/viewall",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"team",
+						"viewall"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete team",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/admin/team/delete/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"team",
+						"delete",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "view team by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/admin/team/view/4",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"team",
+						"view",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "insert member",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "teamid",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/home/kurm/Pictures/Screenshots/Screenshot from 2023-04-06 14-44-38.png"
+						},
+						{
+							"key": "name",
+							"value": "helloargkjahbvAdf",
+							"type": "text"
+						},
+						{
+							"key": "performance",
+							"value": "4",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/home/kurm/Pictures/Screenshots/Screenshot from 2023-04-06 14-44-43.png"
+						},
+						{
+							"key": "countryname",
+							"value": "india",
+							"type": "text"
+						},
+						{
+							"key": "countrycode",
+							"value": "91",
+							"type": "text"
+						},
+						{
+							"key": "strengths",
+							"value": "left arjmm pacer",
+							"type": "text"
+						},
+						{
+							"key": "available",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8080/admin/member/insert",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"member",
+						"insert"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "member update by id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "teamid",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/home/kurm/Pictures/Screenshots/Screenshot from 2023-04-05 15-56-16.png"
+						},
+						{
+							"key": "name",
+							"value": "raja",
+							"type": "text"
+						},
+						{
+							"key": "performance",
+							"value": "5",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/home/kurm/Documents/NodeJS/nodejs-projects/desk photo/daniel-leone-v7daTKlZzaw-unsplash.jpg"
+						},
+						{
+							"key": "countryname",
+							"value": "india",
+							"type": "text"
+						},
+						{
+							"key": "countrycode",
+							"value": "91",
+							"type": "text"
+						},
+						{
+							"key": "strengths",
+							"value": "left arm pacer",
+							"type": "text"
+						},
+						{
+							"key": "available",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8080/admin/member/update/3",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"member",
+						"update",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "view member by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/admin/member/view/4",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"member",
+						"view",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete member",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/admin/member/delete/12",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"member",
+						"delete",
+						"12"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "members by team id ( Only Available Members )",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/admin/member/viewbyteam/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"admin",
+						"member",
+						"viewbyteam",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,45 @@
+memeber table>>>>
+
+photo
+fullname
+performance
+countryflag
+country name
+country code
+strengths
+
+
+
+teamm>>>>>
+
+teamProfile
+teamname
+memberarray{_id,name}
+
+
+Make an app containing the following items
+
+Header
+- App Title (Team Builder)
+- Add Teams (On clicking body container should switch to differnet view where one can add Team).
+Store the team details in a table called teams in MySQL DB.
+
+Sidebar
+- List of available teams
+- Create a GET API and fetch all teams from it.
+
+Body Container
+ - On clicking on any team in the sidebar it should show available members of that team in tabular format with photo,
+Full name, Overall tournament    
+(Rating should be shown in 5 stars not straight up a number like we have in google play store), 
+Country Flag and Country Name/Code,  and Strengths (All this data could be static) 
+- User can update / delete teams as well.
+
+Footer
+- Basic usual Footer shall do
+
+Note:
+- Make sure you use proper coding best practices
+- Implemented CSS should be responsive 
+- Can use any theme that you like and if you prefer custom made that is also fine.
+- Proper Routing should be implemented
